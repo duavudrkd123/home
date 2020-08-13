@@ -2,7 +2,7 @@ package com.yedam.exam;
 
 import java.util.Scanner;
 
-public class EX7 {
+public class EX4_7 {
 	public static void main(String[] args) {
 		boolean run = true;
 		int input = 0;

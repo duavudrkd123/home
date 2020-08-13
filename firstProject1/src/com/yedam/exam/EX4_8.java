@@ -2,7 +2,7 @@ package com.yedam.exam;
 
 import java.util.Scanner;
 
-public class EX8 {
+public class EX4_8 {
 	/*
 	 * 사용자 입력값 : 3개 받아서 작은수 -> 큰수로 출력하는 프로그램 23, 44, 28 결과 23, 28, 44
 	 */

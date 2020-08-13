@@ -1,6 +1,6 @@
 package com.yedam.exam;
 
-public class EX4 {
+public class EX4_4 {
 	public static void main(String[] args) {
 //		boolean b = true;
 //		while (b) {

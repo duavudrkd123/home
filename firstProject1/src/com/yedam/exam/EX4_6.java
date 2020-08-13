@@ -1,6 +1,6 @@
 package com.yedam.exam;
 
-public class EX6 {
+public class EX4_6 {
 	public static void main(String[] args) {
 //		System.out.println("*");
 //		System.out.println("**");

@@ -1,7 +1,7 @@
 
 package com.yedam.exam;
 
-public class EX5 {
+public class EX4_5 {
 	public static void main(String[] args) {
 // 중첩 for문을 사용하여 방정식 4x+ 5y = 60의 모든 해를 구해 xy형태로 출력해보시오, x, y는 10이하의 자연수	
 			for (int x = 1; x <= 10; x++) {
