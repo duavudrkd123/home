@@ -1,11 +1,4 @@
-/* 구구단
-		int num = 2;
-		for (; num <= 9;) {
-			for (int l = 1; l <= 9; l++) {
-				System.out.println(num + " * " + l + " = " + (num * l));
 
-			}
-			num++; */
 package com.yedam.exam;
 
 public class EX5 {

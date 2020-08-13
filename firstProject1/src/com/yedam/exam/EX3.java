@@ -9,4 +9,5 @@ public class EX3 {
 		}
 		System.out.println(sum);
 	}
+
 }
