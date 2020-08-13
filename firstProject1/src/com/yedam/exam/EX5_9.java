@@ -43,7 +43,7 @@ public class EX5_9 {
 				avg = (double) sum / scores.length;
 				for (int num = 0; num < scores.length; num++) { // int num = 0; num < scores.length; num++
 					sum = sum + scores[num];// sum = sum + num;
-					if (maxV < scores[num]) {
+					if (maxV > scores[num]) {
 
 					} else {
 						maxV = scores[num]; // if 엘스를 줄여보자.
