@@ -1,10 +1,10 @@
 package com.yedam.dev;
 
-public class morningCode {
+public class return값 {
 	// main 메소드
 	public static void main(String[] args) {
-		String /* 문자열을 사용할수있다, 클래스 이름은 항상 대문자로 */ str1 = "Hello";
-		String str2 = "World";
+		String /* 문자열을 용할수있다, 클래스 이름은 항상 대문자로 */ str1 = "Hello";
+		String str2 = "Wjorld";
 		String name = "염평강";
 		System.out.println(str1 + ", " + name + ", " + str2);
 
@@ -23,7 +23,7 @@ public class morningCode {
 		System.out.println("안녕하세요. 저는" + name + "입니다.");
 	}
 
-	public static int add(int x, int y) { // method
+	public static int add(int x, int y) { // method  
 		int sum = x + y;
 		return sum;
 	}

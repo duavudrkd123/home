@@ -20,7 +20,7 @@ public class EX5_9 {
 			if (selectNo == 1) {
 				System.out.print("학생수 입력해라-_-! : ");
 				studentNum = scanner.nextInt();
-						scores = new int[studentNum];
+				scores = new int[studentNum];
 				System.out.println("배열이 생성되었다: " + studentNum);
 			} else if (selectNo == 2) {
 				for (int i = 0; i < scores.length; i++) {
@@ -28,13 +28,32 @@ public class EX5_9 {
 					scores[i] = scanner.nextInt();
 				}
 			} else if (selectNo == 3) {
-				System.out.println(scores);
+				for (int i = 0; i < scores.length; i++) {
+					System.out.println("리스트 of 점수 >_<: " + scores[i]);
+				}
 			} else if (selectNo == 4) {
+
 				int maxV = 0;
 				int sum = 0;
 				double avg = 0;
-//				for ( )
-				System.out.println();
+				{
+					for (int i = 0; i < scores.length; i++)
+						sum = sum + scores[i];
+				}
+				avg = (double) sum / scores.length;
+				for (int num = 0; num < scores.length; num++) { // int num = 0; num < scores.length; num++
+					sum = sum + scores[num];// sum = sum + num;
+					if (maxV < scores[num]) {
+
+					} else {
+						maxV = scores[num]; // if 엘스를 줄여보자.
+					}
+					System.out.println("최대값 : " + maxV);
+				}
+				System.out.println("분석결과는");
+				System.out.println("합계 : " + sum);
+				System.out.println("평균값 : " + avg);
+				System.out.println("최대값 : " + maxV);
 			} else if (selectNo == 5) {
 				run = false;
 			}
@@ -42,4 +61,5 @@ public class EX5_9 {
 		}
 		System.out.println("끗");
 	}
+
 }
