@@ -13,6 +13,10 @@ public class Friend {
 		this.Phone = Phone;
 
 	}
+	public Friend() 
+	{
+		
+	}
 	// source 가서 getter and setter
 	public String getName() {
 		return name;
@@ -36,6 +40,11 @@ public class Friend {
 
 	public void setPhone(String phone) {
 		Phone = phone;
+	}
+	@Override
+	public String toString() {
+		return "일반친구 이름: " + this.getName()
+		+ "전화번호: " + this.getPhone();
 	}
 
 }
