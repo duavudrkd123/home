@@ -40,9 +40,9 @@ public class EmpDAO {
 	}
 
 	// 삭제
-	public void removeEmp(Employee emp) {
+	public void removeEmp(int empId) {
 		Connection conn = DBConnection.getConnection();
-		String sql = "delete from emp_temp where employee_id =" + emp.getEmployeeID();
+		String sql = "delete from emp_temp where employee_id =" + empId;
 		try {
 			PreparedStatement psmt = conn.prepareStatement(sql);
 			int r = psmt.executeUpdate();
